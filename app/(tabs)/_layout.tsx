@@ -39,6 +39,13 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="metric-converter"
+        options={{
+          title: 'Converter',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="ruler.fill" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
