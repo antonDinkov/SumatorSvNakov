@@ -30,6 +30,15 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="summator"
+        options={{
+          title: 'Summator',
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name="plus.forwardslash.minus" color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
