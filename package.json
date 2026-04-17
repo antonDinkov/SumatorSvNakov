@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
+    "reversePhone": "adb -s dcd9b811 reverse tcp:8081 tcp:8081",
+    "startLocal": "expo start --localhost -c",
+    "startAndroid": "npx expo start -c",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
